@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zhy="http://schemas.android.com/apk/res/com.lttclaw.pwdrepository"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <com.lttclaw.widget.GestureLockViewGroup
+        android:id="@+id/gesturelock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        zhy:tryTimes="5"
+        zhy:count="4"
+        />
+</LinearLayout>

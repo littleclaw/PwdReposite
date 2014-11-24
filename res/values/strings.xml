@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">密码仓库</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="setpwd_title" >请设置应用访问密码</string>
+    <string name="input_pwd">请输入密码</string>
+    <string name="re_inputpwd">确认密码</string>
+    <string name="confirm">确定</string>
+    <string name="name">请输入账号来源</string>
+    <string name="account">请输入账户名</string>
+    <string name="add">添加账号</string>
+    <string name="search">搜索</string>
+    <string name="edit">编辑条目</string>
+    <string name="delete">删除条目</string>
+    <string name="view">查看密码</string>
+    <string name="reset_gesture">重置手势锁</string>
+
+</resources>
